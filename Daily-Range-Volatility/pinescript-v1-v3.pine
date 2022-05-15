@@ -1,0 +1,17 @@
+// Pine Script v.1 - v.3
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © DevSergo [.com] aka kiti-kiti aka s-harito.ru
+
+//@version = 3
+
+study(title="Daily Range | Volatility in persental %%", shorttitle="Daily Range Volatility [© DevSergo [.com] aka kiti-kiti aka s-harito.ru]")
+
+amplitude = ((high - low)/((high+low)/2))*100
+average30 = sma(amplitude, 30)
+average3 = sma(amplitude, 3)
+average3_5 = sma(average3, 3)
+
+plot(amplitude, style=columns, color=silver)
+plot(average30, color=blue)
+plot(average3, color=red)
+plot(average3_5, color=green)
