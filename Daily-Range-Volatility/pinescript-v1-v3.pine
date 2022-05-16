@@ -1,10 +1,10 @@
 // Pine Script v.1 - v.3
 // This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
-// © DevSergo [.com] aka kiti-kiti aka s-harito.ru
+// © DevSergo [.com] aka kiti-kiti
 
 //@version = 3
 
-study(title="Daily Range | Volatility in persental %%", shorttitle="Daily Range Volatility [© DevSergo [.com] aka kiti-kiti aka s-harito.ru]")
+study(title="Daily Range | Volatility in persental %%", shorttitle="Daily Range Volatility [© DevSergo [.com] aka kiti-kiti]")
 
 amplitude = ((high - low)/((high+low)/2))*100
 average30 = sma(amplitude, 30)
