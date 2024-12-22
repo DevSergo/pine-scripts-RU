@@ -1,4 +1,4 @@
-# pine-scripts-RU
+# pine-scripts-TradingView-indicators
 Мои полезные индикаторы на Pine Script (TradingView)
 
 Pine Script - это внутренний язык популярной торговой платформы TradingView.  
